@@ -1,0 +1,6 @@
+proyectoinicio:
+    resource: "@proyectoinicioBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+

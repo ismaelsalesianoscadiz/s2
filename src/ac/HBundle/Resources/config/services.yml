@@ -1,0 +1,7 @@
+parameters:
+#    ac_h.example.class: ac\HBundle\Example
+
+services:
+#    ac_h.example:
+#        class: %ac_h.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

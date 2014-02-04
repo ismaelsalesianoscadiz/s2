@@ -1,0 +1,22 @@
+proyectoinicio_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: proyectoinicioBundle:Default:index }
+proyectoinicio_reapaso:
+    pattern:  /repaso
+    defaults: { _controller: proyectoinicioBundle:Default:repaso }
+
+proyectoinicio_reapaso2:
+    pattern:  /repaso2
+    defaults: { _controller: proyectoinicioBundle:Default:repaso2 }
+
+proyectoinicio_html5:
+    pattern:  /html5
+    defaults: { _controller: proyectoinicioBundle:Default:html5 }
+
+proyectoinicio_ejemplo:
+    pattern:  /ejemplo
+    defaults: { _controller: proyectoinicioBundle:Default:ejemplo }
+
+proyectoinicio_recibirFromulario:
+    pattern:  /recibirFromulario
+    defaults: { _controller: proyectoinicioBundle:Default:recibirFromulario }

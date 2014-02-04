@@ -1,0 +1,6 @@
+dam_mi_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: DAMMiBundle:Default:index }
+dam_repaso:
+    pattern:     /repaso/{name}
+    defaults: { _controller: DAMMiBundle:Default:repaso}

@@ -1,0 +1,37 @@
+Hola Repasando Symfony!
+
+
+{% set mi_variable = "<b> L </b>" %}
+{{ mi_variable }}
+{{ mi_variable | raw }} 
+
+{% set frutas = { 'apple': 'manzana', 'orange': 'naranja', 'banana': 'platano' } %}
+
+{% set numeros = {0: 34, 1: 56, 2: 24 } %}
+
+
+{% for f in frutas %}
+        <li>{{ f }}</li>
+    {% endfor %}
+
+	
+
+{% for n in numeros %}
+        <li>{{ n }}</li>
+    {% endfor %}
+
+	
+
+<img src="http://localhost/Symfony2/2.1.x-dev/web/i.png" alt="Ismael!" />
+
+<img src="../../web/i.png" alt="Ruta relativa" />
+
+<img src="../../web/bundles/proyectoinicio/perro.jpg" alt="ruta relativa dentro de la carpeta para el proyecto" />
+
+
+
+<link href="{{ asset('bundles/proyectoinicio/css/estilo.css') }}" type="text/css" rel="stylesheet" />
+
+
+
+<img src= {{ asset('bundles/proyectoinicio/imagenes/cadiz.jpg')}} alt="Ismael!" />

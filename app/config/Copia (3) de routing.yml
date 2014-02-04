@@ -1,0 +1,12 @@
+dam_mi:
+   path:     /DAM/{name}
+   defaults: {_controller: DAMMiBundle:Default:index}
+
+ac_h:
+    resource: "@acHBundle/Resources/config/routing.yml"
+    prefix:   /
+
+hello:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeHelloBundle:Hello:index }
+

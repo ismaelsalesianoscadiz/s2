@@ -1,0 +1,12 @@
+dam_mi:
+    path:     /articulos
+    defaults: { _controller: DAMMiBundle:Default:articulos}
+
+ac_h:
+    resource: "@acHBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_hello:
+    resource: "@AcmeHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+

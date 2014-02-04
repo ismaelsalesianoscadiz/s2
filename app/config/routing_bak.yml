@@ -1,0 +1,16 @@
+dam_mi:
+   path:     /DAM/hello/{name}
+   defaults: {_controller: DAMMiBundle:Default:index}
+
+dam_repaso:
+    path:     /repaso/{name}
+    defaults: { _controller: DAMMiBundle:Default:repaso}
+
+ac_h:
+    resource: "@acHBundle/Resources/config/routing.yml"
+    prefix:   /
+
+hello:
+    path:     /hello/{name}
+    defaults: { _controller: AcmeHelloBundle:Hello:index }
+
